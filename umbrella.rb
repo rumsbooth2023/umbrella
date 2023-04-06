@@ -91,7 +91,7 @@ next_twelve_hours.each do |hour_hash|
 end
 
 if precipitation == true
-  puts "Looks like there's a forecast of rain today. You might want to take an umbrella!"
+  puts "Looks like there's rain in the forecast for today. You might want to take an umbrella!"
 else
   puts "Looks like there's no forecast of rain today.You probably won't need an umbrella today."
 end
